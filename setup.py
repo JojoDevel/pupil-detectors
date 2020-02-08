@@ -181,6 +181,8 @@ else:
         # apply all recommended speed optimization (note -O3 is typically not recommeded
         # as it heavily relies on well-written code)
         "-O2",
+        "-D_ENABLE_VFPV3=ON",
+	    "-D_ENABLE_NEON=ON",
     ]
 
 
